@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Final_P3.Clases;
 
 namespace Final_P3
 {
@@ -10,6 +11,8 @@ namespace Final_P3
     {
         static void Main(string[] args)
         {
+            Person.askName();
+            Console.ReadKey();            
         }
     }
 }
